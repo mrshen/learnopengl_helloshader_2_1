@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{7CBED517-3683-4F6D-9596-771F7D802AB2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>HiOpengl</RootNamespace>
+    <RootNamespace>helloshader_2_1</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -71,8 +71,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\learning\opengl\glfw-3.2.1\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\learning\opengl\glfw-3.2.1\build\src\Debug;$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\Fresh\opengl\glfw-3.2.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\Fresh\opengl\glfw_build\src\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>

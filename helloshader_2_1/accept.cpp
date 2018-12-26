@@ -56,13 +56,13 @@ int main()
 	// ------------------------------------
 	// vertex shader program
 	MyShader shaderOrange = MyShader(
-		"D:\\shaders\\triangle_orange_shader\\simple_triangle_vertex.vs",
-		"D:\\shaders\\triangle_orange_shader\\simple_triangle_fragment.fs"
+		"..\\shaders\\triangle_orange_shader\\simple_triangle_vertex.vs",
+		"..\\shaders\\triangle_orange_shader\\simple_triangle_fragment.fs"
 	);
 
 	MyShader shaderYellow = MyShader(
-		"D:\\shaders\\triangle_yellow_shader\\simple_triangle_vertex.vs",
-		"D:\\shaders\\triangle_yellow_shader\\simple_triangle_fragment.fs"
+		"..\\shaders\\triangle_yellow_shader\\simple_triangle_vertex.vs",
+		"..\\shaders\\triangle_yellow_shader\\simple_triangle_fragment.fs"
 	);
 	
 	GLuint VAO[2];
